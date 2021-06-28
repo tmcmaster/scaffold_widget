@@ -7,6 +7,7 @@ import 'shared/shared_style.dart';
 
 void main() {
   final description = faker.lorem.sentences(2);
+
   FlutterWorkbench.runAppWidgetTester(
     title: 'Scaffold Card Vertical',
     styles: SharedStyle.themes,
