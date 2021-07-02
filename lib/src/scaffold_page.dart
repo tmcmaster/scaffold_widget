@@ -33,6 +33,7 @@ class ScaffoldPage extends StatelessWidget {
         ],
       ),
       bottomNavigationBar: BottomNavigationBar(
+        elevation: 0,
         currentIndex: 0, // this will be set when a new tab is tapped
         items: navItems,
       ),

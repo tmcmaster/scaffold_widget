@@ -1,6 +1,6 @@
 name: scaffold_widget
 description: A new Flutter package project.
-version: 0.0.1
+version: 0.0.2
 publish_to: 'none'
 homepage: https://github.com/tmcmaster/scaffold_widget/blob/main/README.md
 
@@ -27,6 +27,9 @@ dev_dependencies:
   faker:
 
   flutter_workbench:
-    path: ../flutter_workbench
-#    git:
-#      url: https://github.com/tmcmaster/flutter_workbench.git
+    git:
+      url: https://github.com/tmcmaster/flutter_workbench.git
+
+#dependency_overrides:
+#  flutter_workbench:
+#    path: ../..
